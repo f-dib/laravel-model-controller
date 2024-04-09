@@ -1,1 +1,14 @@
 @import "~bootstrap/scss/bootstrap";
+
+.my_grid{
+    gap: 40px;
+}
+
+.my_card{
+    width: calc(100% / 2 - 40px);
+    border: 1px solid lightgray;
+
+    &:hover{
+        border: 1px solid red;
+    }
+}
